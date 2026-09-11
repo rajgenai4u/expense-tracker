@@ -20,31 +20,53 @@ pip install -e .
 ## Usage
 
 ```bash
-# Add an expense
-expense add --amount 50.00 --category Food --date 2026-09-11 --desc "Lunch"
-
-# List all expenses
-expense list
-
-# List expenses by month
-expense list --month 2026-09
-
-# List expenses by category
-expense list --category Food
-
-# Edit an expense
-expense edit 1 --amount 45.00
-
-# Delete an expense
-expense delete 1
-
-# Monthly summary
-expense summary
-
-# Category management
-expense category list
-expense category add --name "Gym"
+expense --help
 ```
+
+## Example Prompts
+
+Try these prompts to get started with the expense tracker:
+
+1. **Add a new expense**
+   ```bash
+   expense add --amount 50.00 --category Food --date 2026-09-11 --desc "Lunch"
+   ```
+
+2. **List all expenses**
+   ```bash
+   expense list
+   ```
+
+3. **Filter expenses by month**
+   ```bash
+   expense list --month 2026-09
+   ```
+
+4. **Filter expenses by category**
+   ```bash
+   expense list --category Food
+   ```
+
+5. **View the monthly expense summary**
+   ```bash
+   expense summary
+   ```
+
+6. **Edit an existing expense**
+   ```bash
+   expense edit 1 --amount 45.00
+   ```
+
+7. **Delete an expense**
+   ```bash
+   expense delete 1
+   ```
+
+8. **Manage categories**
+   ```bash
+   expense category list
+   expense category add --name "Gym"
+   ```
 
 ## Commands Reference
 
