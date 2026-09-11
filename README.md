@@ -68,6 +68,21 @@ Try these prompts to get started with the expense tracker:
    expense category add --name "Gym"
    ```
 
+## Developer Prompts Used
+
+The following prompts guided the AI-assisted development of this application:
+
+1. Ask AI to understand the requirement
+2. Ask AI to suggest package/module structure
+3. Generate one module
+4. Run the code
+5. Find an error
+6. Ask AI to fix the error
+7. Add exception handling
+8. Add logging
+9. Refactor the code
+10. Test the final application
+
 ## Commands Reference
 
 | Command | Description |
